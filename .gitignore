@@ -9,6 +9,5 @@ wheels/
 .venv
 .htaccess
 .gitignore
-gunicorn*.*
 requirements.txt
 tmp.txt
