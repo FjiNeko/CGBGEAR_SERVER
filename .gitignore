@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.htaccess
+.gitignore
+gunicorn*.*
+requirements.txt
+tmp.txt
