@@ -1,0 +1,114 @@
+<!-- 
+    Copyright (C) 2026 FjiNeko
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>密码重置</title>
+</head>
+<body style="margin:0; padding:0; background-color:#000000; font-family:'Courier New', Courier, monospace;">
+
+<div align="center" style="width:100%; background-color:#000000;">
+  <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width:600px; width:100%; background-color:#000000;" bgcolor="#000000">
+    
+    <!-- LOGO 图片区域 -->
+    <tr>
+      <td align="left" style="padding:30px 24px 10px 24px;">
+        <img src="https://img.cgbgear.cn/logo2.png_.webp" 
+             alt="CGBGEAR" 
+             style="display:block; max-width:180px; height:auto; background-color:transparent; border:0;"
+             width="180">
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="left" style="padding:10px 24px 30px 24px; color:#f0f0f0; font-size:16px; line-height:1.8;">
+        
+        <p style="margin:0 0 16px 0; color:#dddddd;">
+          <span style="color:#22c55e; font-weight:bold;">$</span> <span style="color:#ffffff;">您好，</span>
+        </p>
+        
+        <p style="margin:0 0 16px 0; color:#dddddd;">
+          <span style="color:#22c55e; font-weight:bold;">$</span> 系统终端已接收密码重置请求。
+        </p>
+        <p style="margin:0 0 8px 0; color:#dddddd;">
+          <span style="color:#22c55e; font-weight:bold;">$</span> 若非本人操作，请忽略此消息。
+        </p>
+        <p style="margin:0 0 20px 0; color:#dddddd;">
+          <span style="color:#22c55e; font-weight:bold;">$</span> 链接有效期：<strong style="color:#22c55e;">15 分钟</strong> 
+        </p>
+        
+        <p style="margin:0 0 12px 0; color:#22c55e; font-weight:bold;">
+          <span style="color:#22c55e;">$</span> ./reset-password --confirm
+        </p>
+        
+        <table border="0" cellpadding="0" cellspacing="0" style="margin:0 0 24px 0;" width="100%">
+          <tr>
+            <td align="left">
+              <a href="{reset_link}" 
+                 style="display:inline-block; 
+                        font-family: 'Courier New', Courier, monospace;
+                        background-color:#22c55e;
+                        background-image:linear-gradient(145deg, #22c55e, #13853d); 
+                        color:#000000; 
+                        font-weight:bold; 
+                        font-size:18px; 
+                        padding:12px 32px; 
+                        border-radius:0; /* 直角更显终端，但保留原有圆角？0更硬核，可保留小圆角 */
+                        border:2px solid #22c55e;
+                        text-decoration:none; 
+                        box-shadow:0 0 12px #22c55e, 0 6px 14px rgba(0,0,0,0.8);
+                        letter-spacing:1px;
+                        text-transform:uppercase;">
+                重置密码
+              </a>
+            </td>
+          </tr>
+        </table>
+        
+        <!-- 备用链接段落，模仿终端输出路径 -->
+        <p style="margin:16px 0 8px 0; color:#bbbbbb; font-size:15px;">
+          <span style="color:#22c55e;">$</span> 或直接访问以下链接：
+        </p>
+        <p style="margin:0 0 28px 0; word-break:break-all; background:#0a0a0a; padding:14px 18px; border-left:6px solid #22c55e; font-family:'Courier New', Courier, monospace;">
+          <a href="{reset_link}" style="color:#22c55e; text-decoration:underline; font-size:15px; word-break:break-all;">{reset_link}</a>
+          <span style="color:#666666;">  # 终端路径</span>
+        </p>
+        
+        <p style="margin:32px 0 0 0; color:#dddddd; font-size:16px;">
+          <span style="color:#22c55e;">$</span> 祝使用愉快！<br>
+          <span style="color:#22c55e; font-weight:bold;">CGBGEAR@terminal:~$</span> <span style="color:#22c55e;">团队</span>
+        </p>
+        
+        <div style="border-bottom:2px dashed #22c55e; width:100%; margin:30px 0 10px 0; opacity:0.4;"></div>
+        
+        <!-- 安全提醒带提示符 -->
+        <p style="color:#666666; font-size:13px; margin:8px 0 0 0;">
+          <span style="color:#22c55e;">$</span> 安全提醒：绝不要将此邮件转发给他人。
+        </p>
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="left" style="padding:0 24px 30px 24px; color:#22c55e; font-size:20px; line-height:1;">
+        <span style="display:inline-block; width:10px;">_</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
