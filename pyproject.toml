@@ -1,0 +1,39 @@
+[project]
+name = "cgbgear_backend"
+version = "0.1.0"
+description = "CGBGEAR论坛原网站后台（Flask）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GNU AGPLv3" }
+authors = [
+    { name = "FjiNeko", email = "murdermobai0605@outlook.com" }
+]
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Framework :: Flask",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "bs4>=0.0.2",
+    "certifi>=2024.2.2",
+    "flask==3.0.3",
+    "flask-cors==4.0.0",
+    "flask-limiter==4.1.1",
+    "mysql-connector-python==9.0.0",
+    "openai==2.16.0",
+    "pillow==12.0.0",
+    "pycryptodome==3.20.0",
+    "pyjwt==2.8.0",
+    "python-dotenv==1.2.1",
+    "redis==7.1.1",
+    "requests==2.25.1",
+    "werkzeug==3.0.3",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cgbgear_backend"]
