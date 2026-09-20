@@ -1,13 +1,59 @@
-# Python-generated files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
 build/
+dist/
 wheels/
-*.egg-info
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+
+# Compressed archives (prevent accidental commits)
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.bz2
+*.xz
 
 # Virtual environments
-.venv
-.htaccess
-.gitignore
-requirements.txt
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Runtime & application data
+tmp/
+tmpfile/
+*.log
+*.pid
+*.sqlite
+*.sqlite3
+*.db
 tmp.txt
+
+# Server configurations
+.htaccess
+
+# Temporary & backup files
+*.bak
+*.swp
+*~
+* copy.*
+* copy*.*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
