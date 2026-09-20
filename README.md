@@ -7,20 +7,24 @@
   <img src="https://img.shields.io/badge/platform-Linux-lightgrey.svg" align="absmiddle" alt="platform" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/ALERT-yellow.svg" align="absmiddle" alt="ALERT" /> <strong>安全与开源规范告示</strong>：仓库已剔除全部历史构建归档，严禁将包含真实私密凭据的 .env 配置文件及打包产物提交至公开仓库，请参考 .env.example 自行配置私有环境变量。
+</p>
+
 欢迎来到 **CGBGEAR** 论坛的开源后端仓库！本仓库命名为 `SERVER`。
 
-> 💡 **项目说明**：FjiNeko 与 @DayingNeko 均为本人。该项目于 2025 年 11 月正式落地并开始建设，历时将近一年的持续开发与迭代。
+> **项目说明**：FjiNeko 与 @DayingNeko 均为本人。该项目于 2025 年 11 月正式落地并开始建设，历时将近一年的持续开发与迭代。
 
-## 📂 项目目录（持续更新）
+## 项目目录（持续更新）
 
-*   **前端**：👉 [点击跳转到前端 Github 仓库](https://github.com/FjiNeko/CGBGEAR_USER_INTERFACE)
-*   **后端仓库（当前仓库）**：👉 [点击跳转到后端 Github 仓库](https://github.com/FjiNeko/CGBGEAR_SERVER)
+*   **前端**：[点击跳转到前端 Github 仓库](https://github.com/FjiNeko/CGBGEAR_USER_INTERFACE)
+*   **后端仓库（当前仓库）**：[点击跳转到后端 Github 仓库](https://github.com/FjiNeko/CGBGEAR_SERVER)
 
-## 🔍 这是个什么项目？
+## 这是个什么项目？
 
 原网站 [www.cgbgear.cn](http://www.cgbgear.cn) 是一个**独立自创的军警垂直领域论坛平台**。后因用户基数较小、维护资金不足以及人力成本过高，导致平台遗憾无法继续维持常态化运营。
 
-## 📂 为什么选择开源？
+## 为什么选择开源？
 
 本网站的**全栈代码编写、架构设计以及日常运营均由我一人独立完成**。
 
@@ -28,7 +32,7 @@
 
 鉴于个人精力有限、无力继续独自维护与开发，我决定将完整的项目代码无保留开源，希望能给有需要的朋友提供参考或帮助。
 
-## ⚙️ 环境配置与部署说明
+## 环境配置与部署说明
 
 本项目采用 Python (Flask) 开发，使用 `uv` / `pip` 进行依赖管理。在运行后端之前，请先配置环境变量：
 
@@ -45,20 +49,7 @@
    pip install -r pyproject.toml
    ```
 
-## 🔒 安全与开源规范告示
-
-为了保障开源项目与生产环境的安全规范：
-
-1. **凭证隔离**：
-   - 真实环境配置文件 `.env` 以及所有以 `.env.*` 命名的私有文件已被 `.gitignore` 全局忽略，**严禁提交至公开 Git 仓库**。
-   - 仓库仅维护不含任何真实密码与秘钥的 `.env.example` 模板。
-2. **构建包与归档清理**：
-   - 历史构建与分发目录 `dist/`（包含 `.whl` 与 `.tar.gz` 打包归档）已从仓库中完全移除，并通过 `.gitignore` 进行持久过滤。
-   - 所有压缩归档格式（`*.zip`, `*.7z`, `*.tar.gz` 等）及临时缓存文件（`tmpfile/`, `*.log`, `*.pid`）均已纳入忽略策略。
-3. **安全警示**：
-   - 无论二次开发还是自建部署，切勿在公开仓库中推送信封证书、明文数据库密码或第三方 API Token。
-
-## 📄 开源协议
+## 开源协议
 
 本项目代码严格遵循 **[AGPL-3.0](https://choosealicense.com/licenses/agpl-3.0/)** 开源协议。请在遵守协议条款的前提下使用、修改和分发代码。
 
