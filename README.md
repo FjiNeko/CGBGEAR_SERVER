@@ -8,12 +8,7 @@
 </p>
 
 <p align="center">
-  <svg align="absmiddle" width="98" height="20" viewBox="0 0 98 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="98" height="20" rx="4" fill="#EAB308"/>
-    <path d="M12 4.5L5.5 15.5H18.5L12 4.5Z" fill="#000000"/>
-    <path d="M12 8.5V11.5M12 13.5V14" stroke="#EAB308" stroke-width="1.2" stroke-linecap="round"/>
-    <text x="23" y="14" fill="#000000" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="0.5">ATTENTION!</text>
-  </svg>
+  <img src="https://img.shields.io/badge/ATTENTION!-yellow.svg" align="absmiddle" alt="attention" />
   本项目已全面清理历史构建归档与泄露风险，请务必基于 .env.example 独立配置私有环境变量，严禁将真实凭证与构建包提交至公开仓库。
 </p>
 
