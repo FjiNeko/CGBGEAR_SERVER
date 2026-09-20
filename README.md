@@ -1,4 +1,11 @@
-# CGBGEAR论坛原网站源码（后端）
+<h1 align="center">CGBGEAR 论坛原网站源码（后端）</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/license-AGPL--3.0-blue.svg" align="absmiddle" alt="license" />
+  <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" align="absmiddle" alt="python" />
+  <img src="https://img.shields.io/badge/version-latest-green.svg" align="absmiddle" alt="version" />
+  <img src="https://img.shields.io/badge/platform-Linux-lightgrey.svg" align="absmiddle" alt="platform" />
+</p>
 
 欢迎来到 **CGBGEAR** 论坛的开源后端仓库！本仓库命名为 `SERVER`。
 
