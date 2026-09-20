@@ -8,10 +8,13 @@
 </p>
 
 <p align="center">
-  <svg align="absmiddle" width="16" height="16" viewBox="0 0 16 16" fill="#eab308" style="vertical-align: middle;">
-    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  <svg align="absmiddle" width="98" height="20" viewBox="0 0 98 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="98" height="20" rx="4" fill="#EAB308"/>
+    <path d="M12 4.5L5.5 15.5H18.5L12 4.5Z" fill="#000000"/>
+    <path d="M12 8.5V11.5M12 13.5V14" stroke="#EAB308" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="23" y="14" fill="#000000" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="0.5">ATTENTION!</text>
   </svg>
-  <font color="#eab308"><b>ATTENTION!</b></font> 本项目已全面清理历史构建归档与泄露风险，请务必基于 .env.example 独立配置私有环境变量，严禁将真实凭证与构建包提交至公开仓库。
+  本项目已全面清理历史构建归档与泄露风险，请务必基于 .env.example 独立配置私有环境变量，严禁将真实凭证与构建包提交至公开仓库。
 </p>
 
 欢迎来到 **CGBGEAR** 论坛的开源后端仓库！本仓库命名为 `SERVER`。
